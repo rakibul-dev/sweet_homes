@@ -17,6 +17,7 @@ const Navbar = () => {
             alignItems="center"
             justifyContent="space-between"
             width="100%"
+            height="100%"
           >
             <Box
               sx={{
@@ -25,37 +26,38 @@ const Navbar = () => {
                 alignItems: "center",
               }}
             >
-              <IconButton
-                size="large"
-                edge="start"
-                aria-label="menu"
-                sx={{ mr: 2 }}
-              >
-                <MenuIcon />
-              </IconButton>
+              <Box sx={{ display: { sm: "block", md: "none" }, mr: 2 }}>
+                <IconButton size="medium" edge="center">
+                  <MenuIcon />
+                </IconButton>
+              </Box>
+
               <Typography variant="h6">News</Typography>
             </Box>
 
-            <Stack direction="row" gap={2} alignItems="center">
-              <Typography variant="h6" fontSize={16} fontWeight={600}>
-                Home
-              </Typography>
-              <Typography variant="h6" fontSize={16} fontWeight={600}>
-                About
-              </Typography>
-              <Typography variant="h6" fontSize={16} fontWeight={600}>
-                Services
-              </Typography>
-              <Typography variant="h6" fontSize={16} fontWeight={600}>
-                Blog
-              </Typography>
-              <Typography variant="h6" fontSize={16} fontWeight={600}>
-                Pricing
-              </Typography>
-              <Typography variant="h6" fontSize={16} fontWeight={600}>
-                Contact
-              </Typography>
-            </Stack>
+            <Box sx={{ display: { sm: "none", md: "block" } }}>
+              <Stack direction="row" gap={2} alignItems="center">
+                <Typography variant="h6" fontSize={16} fontWeight={600}>
+                  Home
+                </Typography>
+                <Typography variant="h6" fontSize={16} fontWeight={600}>
+                  About
+                </Typography>
+                <Typography variant="h6" fontSize={16} fontWeight={600}>
+                  Services
+                </Typography>
+                <Typography variant="h6" fontSize={16} fontWeight={600}>
+                  Blog
+                </Typography>
+                <Typography variant="h6" fontSize={16} fontWeight={600}>
+                  Pricing
+                </Typography>
+                <Typography variant="h6" fontSize={16} fontWeight={600}>
+                  Contact
+                </Typography>
+              </Stack>
+            </Box>
+
             <Button variant="contained">Login</Button>
           </Stack>
         </Toolbar>
