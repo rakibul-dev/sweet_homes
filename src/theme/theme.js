@@ -15,6 +15,10 @@ let theme = createTheme({
   },
   typography: {
     fontFamily: `"Roboto", "Helvetica", "Arial", sans-serif`,
+    button: {
+      textTransform: "none",
+      fontWeight: "bold",
+    },
   },
   palette: {
     // mode: "dark",
@@ -22,7 +26,8 @@ let theme = createTheme({
       default: "#f6f9fcff",
     },
     primary: {
-      main: "#212123ff",
+      main: "#27ae60",
+      contrastText: "#fff", //button text white instead of black
     },
   },
   // shadows: ["none"],

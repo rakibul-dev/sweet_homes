@@ -5,7 +5,6 @@ const MuiTypography = {
       // Some CSS
       letterSpacing: "1px",
       lineHeight: "100%",
-      fontWeight: "bold",
     },
   },
 };

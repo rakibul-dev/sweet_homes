@@ -3,7 +3,8 @@ const MuiButtonBase = {
     root: {
       // Some CSS
       fontSize: "1rem",
-      textTransform: "Capitalize",
+      textTransform: "Uppercase",
+
       //   borderRadius: "5px",
     },
   },
