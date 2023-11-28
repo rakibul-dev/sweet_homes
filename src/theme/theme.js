@@ -1,8 +1,8 @@
 "use client";
 import components from "./component/component";
 
-import { createTheme } from "@mui/material";
-
+// import { createTheme } from "@mui/material";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 let theme = createTheme({
   breakpoints: {
     values: {
@@ -26,8 +26,11 @@ let theme = createTheme({
       default: "#f6f9fcff",
     },
     primary: {
-      main: "#27ae60",
+      main: "#ea580c",
       contrastText: "#fff", //button text white instead of black
+    },
+    success: {
+      main: "#3aaf61",
     },
   },
   // shadows: ["none"],
