@@ -1,0 +1,10 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg fill="#ea580cff" width="800px" height="800px" viewBox="0 0 24 24" id="appartment" data-name="Flat Line" xmlns="http://www.w3.org/2000/svg" class="icon flat-line" stroke="#ea580cff">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier">
+<path id="secondary" d="M14,3H4A1,1,0,0,0,3,4V21H7V15h4v6h4V4A1,1,0,0,0,14,3Z" style="fill: #ffffff; stroke-width: 2;"/>
+<path id="primary" d="M11,21V15H7v6ZM7,7h4M7,11h4m4,10H3V4A1,1,0,0,1,4,3H14a1,1,0,0,1,1,1Zm0,0h6V7a1,1,0,0,0-1-1H15Z" style="fill: none; stroke: #ea580cff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"/>
+</g>
+</svg>
