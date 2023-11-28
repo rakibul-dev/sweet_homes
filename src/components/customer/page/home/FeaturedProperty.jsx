@@ -123,7 +123,7 @@ const FeaturedProperty = () => {
                           fontSize="16px"
                           fontWeight="bold"
                         >
-                          Office & Studio
+                          Office Studio
                         </Typography>
                         <Typography variant="h6" align="center" fontSize="14px">
                           70 Property
