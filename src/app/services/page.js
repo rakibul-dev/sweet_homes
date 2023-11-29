@@ -7,7 +7,7 @@ import {
   Button,
   Container,
 } from "@mui/material";
-
+import Image from "next/image";
 const page = () => {
   return (
     <Box>
@@ -58,8 +58,11 @@ const page = () => {
                         justifyContent="center"
                         alignItems="center"
                       >
-                        <img
+                        <Image
                           src="images/family-house.svg"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
                           style={{ height: "50px", width: "50px" }}
                         />
                         <Box>
@@ -91,8 +94,11 @@ const page = () => {
                         justifyContent="center"
                         alignItems="center"
                       >
-                        <img
+                        <Image
                           src="images/house.svg"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
                           style={{ height: "50px", width: "50px" }}
                         />
                         <Box>
@@ -124,8 +130,11 @@ const page = () => {
                         justifyContent="center"
                         alignItems="center"
                       >
-                        <img
+                        <Image
                           src="images/appartment.svg"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
                           style={{ height: "50px", width: "50px" }}
                         />
                         <Box>
@@ -158,8 +167,11 @@ const page = () => {
                         justifyContent="center"
                         alignItems="center"
                       >
-                        <img
+                        <Image
                           src="images/office.svg"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
                           style={{ height: "50px", width: "50px" }}
                         />
                         <Box>
@@ -191,8 +203,11 @@ const page = () => {
                         justifyContent="center"
                         alignItems="center"
                       >
-                        <img
+                        <Image
                           src="images/condo.svg"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
                           style={{ height: "50px", width: "50px" }}
                         />
                         <Box>

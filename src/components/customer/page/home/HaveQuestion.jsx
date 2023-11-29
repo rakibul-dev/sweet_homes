@@ -15,7 +15,7 @@ const HaveQuestion = () => {
                 Do You Have Questions ?
               </Typography>
               <Typography variant="p" fontSize="14px" fontWeight="bold">
-                We'll help you to grow your career and growth.
+                We&apos;ll help you to grow your career and growth.
               </Typography>
             </Stack>
             <Button>Contact us today</Button>

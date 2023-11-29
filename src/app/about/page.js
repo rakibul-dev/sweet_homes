@@ -1,5 +1,5 @@
 import { Box, Grid, Stack, Typography, Button, Container } from "@mui/material";
-
+import Image from "next/image";
 const page = () => {
   return (
     <Box>
@@ -64,9 +64,12 @@ const page = () => {
                 </Stack>
               </Grid>
               <Grid item md={6}>
-                <img
+                <Image
                   src="/images/family.jpg"
-                  style={{ height: "100%", width: "100%" }}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
                 />
               </Grid>
             </Grid>

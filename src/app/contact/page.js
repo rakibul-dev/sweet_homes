@@ -8,6 +8,7 @@ import {
   Container,
   TextField,
 } from "@mui/material";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -44,9 +45,12 @@ const page = () => {
       <Container>
         <Grid container spacing={4} width="100%">
           <Grid item md={4}>
-            <img
+            <Image
               src="/images/contact.png"
-              style={{ height: "100%", width: "100%" }}
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "100%", height: "auto" }}
             />
           </Grid>
           <Grid item md={8}>

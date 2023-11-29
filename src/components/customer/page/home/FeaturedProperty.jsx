@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Grid, Paper, Stack, Container, Typography } from "@mui/material";
+import Image from "next/image";
 const FeaturedProperty = () => {
   return (
     <Box>
@@ -26,139 +27,198 @@ const FeaturedProperty = () => {
             </Typography>
           </Box>
           <Box>
-            <Grid
-              container
-              spacing={4}
-              justifyContent="center"
-              alignItems="center"
-            >
-              <Grid item md={2}>
-                <Paper>
-                  <Box sx={{ padding: "25px" }}>
-                    <Stack gap={2} justifyContent="center" alignItems="center">
-                      <img
-                        src="images/family-house.svg"
-                        style={{ height: "50px", width: "50px" }}
-                      />
-                      <Box>
-                        <Typography
-                          variant="h5"
-                          align="center"
-                          fontSize="16px"
-                          fontWeight="bold"
+            <Container>
+              <Box>
+                <Grid
+                  container
+                  spacing={4}
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <Grid item md={2}>
+                    <Paper>
+                      <Box sx={{ padding: "25px" }}>
+                        <Stack
+                          gap={2}
+                          justifyContent="center"
+                          alignItems="center"
                         >
-                          Family House
-                        </Typography>
-                        <Typography variant="h6" align="center" fontSize="14px">
-                          122 Property
-                        </Typography>
+                          <Image
+                            src="images/family-house.svg"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ height: "50px", width: "50px" }}
+                          />
+                          <Box>
+                            <Typography
+                              variant="h5"
+                              align="center"
+                              fontSize="16px"
+                              fontWeight="bold"
+                            >
+                              Family House
+                            </Typography>
+                            <Typography
+                              variant="h6"
+                              align="center"
+                              fontSize="14px"
+                            >
+                              122 Property
+                            </Typography>
+                          </Box>
+                        </Stack>
                       </Box>
-                    </Stack>
-                  </Box>
-                </Paper>
-              </Grid>
-              <Grid item md={2}>
-                <Paper>
-                  <Box sx={{ padding: "25px" }}>
-                    <Stack gap={2} justifyContent="center" alignItems="center">
-                      <img
-                        src="images/house.svg"
-                        style={{ height: "50px", width: "50px" }}
-                      />
-                      <Box>
-                        <Typography
-                          variant="h5"
-                          align="center"
-                          fontSize="16px"
-                          fontWeight="bold"
+                    </Paper>
+                  </Grid>
+                  <Grid item md={2}>
+                    <Paper>
+                      <Box sx={{ padding: "25px" }}>
+                        <Stack
+                          gap={2}
+                          justifyContent="center"
+                          alignItems="center"
                         >
-                          House & Villa
-                        </Typography>
-                        <Typography variant="h6" align="center" fontSize="14px">
-                          155 Property
-                        </Typography>
+                          <Image
+                            src="images/house.svg"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ height: "50px", width: "50px" }}
+                          />
+                          <Box>
+                            <Typography
+                              variant="h5"
+                              align="center"
+                              fontSize="16px"
+                              fontWeight="bold"
+                            >
+                              House & Villa
+                            </Typography>
+                            <Typography
+                              variant="h6"
+                              align="center"
+                              fontSize="14px"
+                            >
+                              155 Property
+                            </Typography>
+                          </Box>
+                        </Stack>
                       </Box>
-                    </Stack>
-                  </Box>
-                </Paper>
-              </Grid>
-              <Grid item md={2}>
-                <Paper>
-                  <Box sx={{ padding: "25px" }}>
-                    <Stack gap={2} justifyContent="center" alignItems="center">
-                      <img
-                        src="images/appartment.svg"
-                        style={{ height: "50px", width: "50px" }}
-                      />
-                      <Box>
-                        <Typography
-                          variant="h5"
-                          align="center"
-                          fontSize="16px"
-                          fontWeight="bold"
+                    </Paper>
+                  </Grid>
+                  <Grid item md={2}>
+                    <Paper>
+                      <Box sx={{ padding: "25px" }}>
+                        <Stack
+                          gap={2}
+                          justifyContent="center"
+                          alignItems="center"
                         >
-                          Apartment
-                        </Typography>
-                        <Typography variant="h6" align="center" fontSize="14px">
-                          90 Property
-                        </Typography>
+                          <Image
+                            src="images/appartment.svg"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ height: "50px", width: "50px" }}
+                          />
+                          <Box>
+                            <Typography
+                              variant="h5"
+                              align="center"
+                              fontSize="16px"
+                              fontWeight="bold"
+                            >
+                              Apartment
+                            </Typography>
+                            <Typography
+                              variant="h6"
+                              align="center"
+                              fontSize="14px"
+                            >
+                              90 Property
+                            </Typography>
+                          </Box>
+                        </Stack>
                       </Box>
-                    </Stack>
-                  </Box>
-                </Paper>
-              </Grid>
+                    </Paper>
+                  </Grid>
 
-              <Grid item md={2}>
-                <Paper>
-                  <Box sx={{ padding: "25px" }}>
-                    <Stack gap={2} justifyContent="center" alignItems="center">
-                      <img
-                        src="images/office.svg"
-                        style={{ height: "50px", width: "50px" }}
-                      />
-                      <Box>
-                        <Typography
-                          variant="h5"
-                          align="center"
-                          fontSize="16px"
-                          fontWeight="bold"
+                  <Grid item md={2}>
+                    <Paper>
+                      <Box sx={{ padding: "25px" }}>
+                        <Stack
+                          gap={2}
+                          justifyContent="center"
+                          alignItems="center"
                         >
-                          Office Studio
-                        </Typography>
-                        <Typography variant="h6" align="center" fontSize="14px">
-                          70 Property
-                        </Typography>
+                          <Image
+                            src="images/office.svg"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ height: "50px", width: "50px" }}
+                          />
+                          <Box>
+                            <Typography
+                              variant="h5"
+                              align="center"
+                              fontSize="16px"
+                              fontWeight="bold"
+                            >
+                              Office Studio
+                            </Typography>
+                            <Typography
+                              variant="h6"
+                              align="center"
+                              fontSize="14px"
+                            >
+                              70 Property
+                            </Typography>
+                          </Box>
+                        </Stack>
                       </Box>
-                    </Stack>
-                  </Box>
-                </Paper>
-              </Grid>
-              <Grid item md={2}>
-                <Paper>
-                  <Box sx={{ padding: "25px" }}>
-                    <Stack gap={2} justifyContent="center" alignItems="center">
-                      <img
-                        src="images/condo.svg"
-                        style={{ height: "50px", width: "50px" }}
-                      />
-                      <Box>
-                        <Typography
-                          variant="h5"
-                          align="center"
-                          fontSize="16px"
-                          fontWeight="bold"
+                    </Paper>
+                  </Grid>
+                  <Grid item md={2}>
+                    <Paper>
+                      <Box sx={{ padding: "25px" }}>
+                        <Stack
+                          gap={2}
+                          justifyContent="center"
+                          alignItems="center"
                         >
-                          Villa & Condo
-                        </Typography>
-                        <Typography variant="h6" align="center" fontSize="14px">
-                          70 Property
-                        </Typography>
+                          <Image
+                            src="images/condo.svg"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{ height: "50px", width: "50px" }}
+                          />
+                          <Box>
+                            <Typography
+                              variant="h5"
+                              align="center"
+                              fontSize="16px"
+                              fontWeight="bold"
+                            >
+                              Villa & Condo
+                            </Typography>
+                            <Typography
+                              variant="h6"
+                              align="center"
+                              fontSize="14px"
+                            >
+                              70 Property
+                            </Typography>
+                          </Box>
+                        </Stack>
                       </Box>
-                    </Stack>
-                  </Box>
-                </Paper>
-              </Grid>
-            </Grid>
+                    </Paper>
+                  </Grid>
+                </Grid>
+              </Box>
+            </Container>
           </Box>
         </Stack>
       </Container>

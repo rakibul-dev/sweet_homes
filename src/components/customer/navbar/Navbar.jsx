@@ -11,7 +11,7 @@ import {
   AppBar,
   Drawer,
 } from "@mui/material";
-
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 import MenuIcon from "@mui/icons-material/Menu";
@@ -59,7 +59,13 @@ const Navbar = () => {
 
               <Box>
                 <Stack direction="row" gap={1} alignItems="center">
-                  <img src="/images/sweet_home_logo.svg" alt="" />
+                  <Image
+                    src="/images/sweet_home_logo.svg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ height: "50px", width: "50px" }}
+                  />
                   <Typography variant="h5" color="black">
                     SweetHome
                   </Typography>
